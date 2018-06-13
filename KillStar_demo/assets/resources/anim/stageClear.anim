@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "stageClear",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "imgStageClearBG": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 1,
+              "value": 90
+            }
+          ]
+        }
+      },
+      "imgStageClear": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 1.5
+            },
+            {
+              "frame": 0.2,
+              "value": 1.6
+            },
+            {
+              "frame": 0.4,
+              "value": 1
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 1.5
+            },
+            {
+              "frame": 0.2,
+              "value": 1.6
+            },
+            {
+              "frame": 0.4,
+              "value": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1,
+      "func": "flyWord",
+      "params": []
+    }
+  ]
+}

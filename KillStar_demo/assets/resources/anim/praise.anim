@@ -1,0 +1,106 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "praise",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "imePraise": {
+        "props": {
+          "scaleX": [
+            {
+              "frame": 0,
+              "value": 0.1
+            },
+            {
+              "frame": 0.2,
+              "value": 0.9
+            },
+            {
+              "frame": 0.4,
+              "value": 0.8
+            }
+          ],
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.1
+            },
+            {
+              "frame": 0.2,
+              "value": 0.9
+            },
+            {
+              "frame": 0.4,
+              "value": 0.8
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.4,
+              "value": 255
+            },
+            {
+              "frame": 0.5,
+              "value": 150
+            },
+            {
+              "frame": 0.6,
+              "value": 255
+            },
+            {
+              "frame": 0.7,
+              "value": 150
+            },
+            {
+              "frame": 0.8,
+              "value": 255
+            },
+            {
+              "frame": 0.9,
+              "value": 150
+            },
+            {
+              "frame": 1,
+              "value": 255
+            }
+          ],
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                390
+              ]
+            },
+            {
+              "frame": 0.2,
+              "value": [
+                0,
+                400
+              ]
+            },
+            {
+              "frame": 0.4,
+              "value": [
+                0,
+                390
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1,
+      "func": "playEnd",
+      "params": []
+    }
+  ]
+}

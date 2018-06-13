@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FishMove0",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 3,
+  "sample": 10,
+  "speed": 0.4,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": -1000
+        },
+        {
+          "frame": 0.5,
+          "value": -250
+        },
+        {
+          "frame": 2.5,
+          "value": 250
+        },
+        {
+          "frame": 3,
+          "value": 1000
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 3,
+      "func": "playEnd",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "ContraryFishMove3",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.8,
+  "sample": 10,
+  "speed": 0.3,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": 1000
+        },
+        {
+          "frame": 1,
+          "value": 200
+        },
+        {
+          "frame": 1.3,
+          "value": -400
+        },
+        {
+          "frame": 1.8,
+          "value": -800
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 1.8,
+      "func": "playEnd",
+      "params": []
+    }
+  ]
+}
